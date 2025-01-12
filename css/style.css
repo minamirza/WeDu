@@ -1,0 +1,28 @@
+.container {
+  width: 1350px;
+  margin: auto;
+}
+.L-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container-fluid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font:600 20px Arial;
+    padding-top: 10px;
+  }
+  p {
+    font: 400 14px Arial;
+  }
+}
+.AKxYR5 {
+  padding: 5px 10px 0 10px;
+  display: flex;
+  align-items: center;
+}
