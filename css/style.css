@@ -102,13 +102,30 @@
 }
 
 .text-content {
-padding: 50px 0;
+  padding: 50px 0;
   h2 {
     width: 300px;
-    font: 400 40px Arial;
+    font: 600 40px Arial;
   }
 
   p {
     font: 400 18px Arial;
     width: 450px;
+  }
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  width: 300px;
+  height: 250px;
+  h2 {
+    font: 600 25px Arial;
+    padding: 10px 0;
+  }
+  p {
+    font: 400 18px Arial;
+  }
 }
